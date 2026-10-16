@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/feed', function () {
-    return view('feed');
-});
-
-Route::get('/profile', function () {
-    return view('profile');
+Route::get('/ninjas', function () {
+    return view('ninjas.index');
 });
